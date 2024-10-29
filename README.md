@@ -32,7 +32,8 @@ This project implements an **ESP32-based asynchronous web server** to monitor te
 
 4. **WhatsApp API Setup**:
    - Configure the CallMeBot API for WhatsApp notifications by entering your phone number and API key in the code.
-   - ![WhatsApp API Setup](images/whatsapp_api1.jpg)  
+   - ![WhatsApp API Setup](images/whatsapp_api1.jpg)
+   
      ![WhatsApp API Notifications](images/whatsapp_api2.jpg)
 
 > **Note**: Replace personal information in the code (such as SSID, Wi-Fi password, phone number, and API key) with your own details, and ensure you keep this information secure.
