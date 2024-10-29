@@ -44,7 +44,7 @@ For extended data insights, the additional script performs statistical analysis 
 
 ## Results and Demonstrations
 - **Serial Monitor Output**: The data streamed from the ESP32 for debugging.
-  ![Serial Monitor](images/serial_monitor.jpg)
+  ![Serial Monitor](images/serial_monitor.png)
 - **Real-Time Plots**: Graphical data representations using Arduino’s Serial Plotter.
   ![Serial Plotter Analysis](images/SerialPlotterAnalysis.png)
 
