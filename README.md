@@ -33,7 +33,7 @@ This project implements an ESP32-based asynchronous web server to monitor temper
    ![WhatsApp API Setup](images/whatsapp_api.jpg)
 
 ## Web Interface
-![Server on PC](images/server-onpc.jpg)  
+![Server on PC](images/Capture-2.PNG) 
 The web server allows users to view the current temperature and humidity on any device with a browser.
 
 ## Statistical Analysis
