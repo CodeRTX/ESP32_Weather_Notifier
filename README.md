@@ -1,27 +1,30 @@
 # ESP32 Weather Notifier
+![ESP32 and DHT11](images/ckt_diag.jpeg)
 
 ## Project Overview
-This project implements an ESP32-based asynchronous web server to monitor temperature and humidity data from a DHT11 sensor in real-time. Additionally, the server sends WhatsApp notifications of these sensor readings to specified contacts.
+This project implements an **ESP32-based asynchronous web server** to monitor temperature and humidity data from a DHT11 sensor in real-time. Additionally, the server sends **automated WhatsApp notifications** of sensor readings to specified contacts.
 
 ## Features
 - **Real-Time Data Monitoring**: Live temperature and humidity data available via a web server.
-- **WhatsApp Notifications**: Automated updates using the CallMeBot API.
-- **Statistical Analysis**: Includes additional functionality for statistical analysis on sensor data.
+- **WhatsApp Notifications**: Automated updates sent through the CallMeBot API.
+- **Statistical Analysis**: Script for extended analysis of collected sensor data, including mean, variance, standard deviation, median, and mode.
 
 ## Components
-- ESP32 MCU
+- ESP32 MCU (MicroController Unit)
 - DHT11 temperature and humidity sensor
 - Breadboard and connecting wires
 - Resistor (1kΩ)
 
 ## Setup Instructions
-1. **Arduino Library Setup**: 
+
+1. **Arduino Library Setup**:  
    - Install the "DHT library" and "Adafruit Unified Sensor" library from Arduino Library Manager.
-   - Include ESP32 board package:
+   - Include the ESP32 board package by adding the following URL to **Additional Board Manager URLs** in Arduino Preferences:
      ```
      https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
      ```
-2. **Connection Diagram**:
+     
+2. **Connection Diagram**:  
    ![Circuit Diagram](images/ckt_diag.jpeg)
 
 3. **Arduino Code Upload**:
@@ -29,24 +32,34 @@ This project implements an ESP32-based asynchronous web server to monitor temper
    - `extra_StatisticalAnalysis.ino` contains additional statistical analysis.
 
 4. **WhatsApp API Setup**:
-   - Configure the CallMeBot API for WhatsApp notifications.
-   ![WhatsApp API Setup](images/whatsapp_api1.jpg)
-   ![WhatsApp API Notifications](images/whatsapp_api2.jpg)
+   - Configure the CallMeBot API for WhatsApp notifications by entering your phone number and API key in the code.
+   - ![WhatsApp API Setup](images/whatsapp_api1.jpg)  
+     ![WhatsApp API Notifications](images/whatsapp_api2.jpg)
+
+> **Note**: Replace personal information in the code (such as SSID, Wi-Fi password, phone number, and API key) with your own details, and ensure you keep this information secure.
 
 ## Web Interface
-![Server on PC](images/Capture-2.PNG) 
-The web server allows users to view the current temperature and humidity on any device with a browser.
+![Server on PC](images/Capture-2.PNG)  
+The web server allows users to view current temperature and humidity readings on any device with a browser.
 
 ## Statistical Analysis
 For extended data insights, the additional script performs statistical analysis on the sensor readings, providing:
-- Mean, Variance, Standard Deviation
-- Median and Mode
+- **Mean**
+- **Variance**
+- **Standard Deviation**
+- **Median**
+- **Mode**
+
 ![Statistical Analysis](images/statistics.png)
 
 ## Results and Demonstrations
-- **Serial Monitor Output**: The data streamed from the ESP32 for debugging.
+
+- **Serial Monitor Output**:  
+  The data streamed from the ESP32 for debugging.
   ![Serial Monitor](images/serial_monitor.png)
-- **Real-Time Plots**: Graphical data representations using Arduino’s Serial Plotter.
+
+- **Real-Time Plots**:  
+  Graphical data representations using Arduino’s Serial Plotter.
   ![Serial Plotter Analysis](images/SerialPlotterAnalysis.png)
 
 ## Conclusion
