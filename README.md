@@ -1,5 +1,4 @@
 # ESP32 Weather Notifier
-![ESP32 and DHT11](images/ckt_diag.jpeg)
 
 ## Project Overview
 This project implements an **ESP32-based asynchronous web server** to monitor temperature and humidity data from a DHT11 sensor in real-time. Additionally, the server sends **automated WhatsApp notifications** of sensor readings to specified contacts.
