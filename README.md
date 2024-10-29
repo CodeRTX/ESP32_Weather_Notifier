@@ -30,7 +30,8 @@ This project implements an ESP32-based asynchronous web server to monitor temper
 
 4. **WhatsApp API Setup**:
    - Configure the CallMeBot API for WhatsApp notifications.
-   ![WhatsApp API Setup](images/whatsapp_api.jpg)
+   ![WhatsApp API Setup](images/whatsapp_api1.jpg)
+   ![WhatsApp API Notifications](images/whatsapp_api2.jpg)
 
 ## Web Interface
 ![Server on PC](images/Capture-2.PNG) 
