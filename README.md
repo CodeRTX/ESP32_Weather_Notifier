@@ -70,3 +70,6 @@ The ESP32 Weather Notifier demonstrates an IoT application with real-time data m
 - Truong, Hong Kha. “Temperature and humidity monitor with ESP8266.” [Theseus](https://www.theseus.fi/handle/10024/262546)
 - [ESP32-DHT11 Web Server Tutorial](https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-web-server-arduino-ide/)
 - [CallMeBot WhatsApp API Guide](https://randomnerdtutorials.com/esp32-send-messages-whatsapp/)
+
+## MTech Mini-Project
+This project was completed as part of my MTech mini-project.
