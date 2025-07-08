@@ -12,7 +12,7 @@ const char* ssid = "My-2G";
 const char* password = "XXXXXXXX";
 
 String phoneNumber = "+91XXXXXXXXXX";             // (+country_code) + phone_no.
-String apiKey = "8796299";
+String apiKey = String(API_KEY);
 
 #define DHTTYPE    DHT11     // DHT 11
 
